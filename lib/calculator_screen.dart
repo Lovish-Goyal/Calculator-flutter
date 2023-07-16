@@ -92,7 +92,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(30),
                         topRight: Radius.circular(30))),
-                padding: EdgeInsets.only(top: 25),
+                padding: EdgeInsets.only(top: 24),
                 child: GridView.builder(
                     padding: EdgeInsets.all(10),
                     itemCount: buttonlist.length,
